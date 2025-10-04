@@ -1,0 +1,36 @@
+# Visual Studio / .NET build artifacts
+**/bin/
+**/obj/
+.vs/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs / caches
+*.log
+*.cache
+*.tmp
+
+# Build outputs / symbols
+*.pdb
+*.mdb
+*.ilk
+*.idb
+*.tlog
+
+# Packages
+*.nupkg
+packages/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Rider/JetBrains
+.idea/
+
+# Keep VS Code settings tracked (do not ignore .vscode)
+

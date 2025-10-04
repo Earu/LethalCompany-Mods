@@ -1,0 +1,11 @@
+{
+  "achilleshr.runonsave": {
+    "commands": [
+      {
+        "match": "(.*\\.cs$|LethalCompany\\.csproj$)",
+        "cmd": "pwsh -NoProfile -ExecutionPolicy Bypass -File \"${workspaceFolder}/.vscode/build.ps1\" -Project \"${workspaceFolder}/LethalCompany/LethalCompany.csproj\" -Configuration Debug"
+      }
+    ]
+  }
+}
+
