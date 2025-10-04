@@ -31,6 +31,3 @@ Thumbs.db
 
 # Rider/JetBrains
 .idea/
-
-# Keep VS Code settings tracked (do not ignore .vscode)
-
